@@ -1,0 +1,24 @@
+{
+  "name": "testing-edteam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "test:coverage": "mocha --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "jest": "^27.4.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
